@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 )
 
 
-func main() {
+func hello() {
 	app := iris.New()
 
 	app.Get("/me", func(context *context.Context) {
