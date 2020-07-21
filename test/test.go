@@ -23,7 +23,6 @@ func main() {
 	app.Handle("POST", "/postCommit", func(c *context.Context) {
 		path := c.Path()
 		app.Logger().Info("connect url:",path)
-
 	})
 
 	/*
